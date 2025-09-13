@@ -98,11 +98,50 @@ The website is specifically optimized for Stockholm-based searches with:
 - **Visit Address**: Västra Järnvägsgatan 3, Stockholm
 - **Mail Address**: Långkroksvägen 56, 16346 Spånga
 
-## 🚀 Deployment
+## 🚀 GitHub Pages Deployment
 
-This is a static website that can be deployed to any web server or static hosting service such as:
+This website is configured for GitHub Pages hosting. Follow these steps to deploy:
+
+### Prerequisites
+- GitHub account
+- Git installed on your computer
+
+### Deployment Steps
+
+1. **Create a new repository on GitHub**
+   - Go to GitHub and create a new repository
+   - Name it `bengt-hemsida` (or your preferred name)
+   - Make it public (required for free GitHub Pages)
+
+2. **Upload your files**
+   - Clone the repository to your local machine
+   - Copy all website files to the repository folder
+   - Commit and push to GitHub
+
+3. **Enable GitHub Pages**
+   - Go to your repository on GitHub
+   - Click on **Settings** tab
+   - Scroll down to **Pages** section
+   - Under **Source**, select **Deploy from a branch**
+   - Choose **main** branch and **/ (root)** folder
+   - Click **Save**
+
+4. **Update URLs (IMPORTANT)**
+   - Replace `YOURUSERNAME` in all files with your actual GitHub username
+   - Files to update:
+     - `index.html` (Open Graph URLs, canonical URL, structured data)
+     - `kontakt.htm` (Open Graph URLs, canonical URL, structured data)
+     - `revision.htm` (Open Graph URLs, canonical URL, structured data)
+     - `tjanster.htm` (Open Graph URLs, canonical URL, structured data)
+     - `sitemap.xml` (all URLs)
+     - `robots.txt` (sitemap URL)
+
+5. **Access your website**
+   - Your site will be available at: `https://YOURUSERNAME.github.io/bengt-hemsida/`
+   - It may take 5-10 minutes for changes to appear
+
+### Alternative Hosting Options
 - Traditional web hosting
-- GitHub Pages
 - Netlify
 - Vercel
 - AWS S3 + CloudFront

@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://ekedahlrevision.se/sitemap.xml
+Sitemap: https://JacobOmateq.github.io/bergshem-website/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1

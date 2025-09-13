@@ -1,0 +1,41 @@
+# GitHub Pages Configuration for Bergshem Revision Website
+
+# Site settings
+title: "Bergshem Revision Aktiebolag - Revision Stockholm"
+description: "Professionell revision, redovisning och rådgivning i Stockholm. Erfarna revisorer som hjälper ditt företag med revision, skatt, bolagsfrågor och ekonomisk rådgivning."
+url: "https://yourusername.github.io"
+baseurl: "/bengt-hemsida"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include files
+include:
+  - _redirects
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
