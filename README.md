@@ -96,7 +96,7 @@ The website is specifically optimized for Stockholm-based searches with:
 - **Phone**: 073-687 5607
 - **Email**: Bengt.Bergshem@brab.se
 - **Visit Address**: Västra Järnvägsgatan 3, Stockholm
-- **Mail Address**: Långkroksvägen 56, 16346 Spånga
+- **Mail Address**: Långvretsvägen 56, 16346 Spånga
 
 ## 🚀 GitHub Pages Deployment
 
